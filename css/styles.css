@@ -34,7 +34,8 @@ body {
   background-color: #ffffff;
 }
 
-.header-logo {
+.header-logo,
+.logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -63,7 +64,7 @@ body {
 .contact {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
@@ -98,10 +99,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  background: var(--accent-color);
 }
 
 /* ------------Особенности----------- */
-
+.features {
+  background-color: #e5e5e5;
+}
 .feature-title {
   font-weight: 700;
   font-size: 14px;
@@ -117,4 +121,79 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+
+/* -------------Чем занимаемся---------- */
+.promo {
+  background-color: #e5e5e5;
+}
+
+.promo-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+/* --------------Команда----------------- */
+.team {
+  background-color: #f5f4fa;
+  color: var(--primary-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-function {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+/* --------------Подвал-------------- */
+.footer {
+  background: #2f303a;
+}
+
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-location {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
